@@ -1,0 +1,1 @@
+tc_flasher.exe dump.bin COM5 w
