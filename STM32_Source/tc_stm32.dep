@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>644494113</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\fsm\core\signals.h</file>
+      <file>$PROJ_DIR$\loader.c</file>
+      <file>$PROJ_DIR$\drv\media.h</file>
+      <file>$PROJ_DIR$\drv\pwr_sourse.h</file>
+      <file>$PROJ_DIR$\drv\spi.c</file>
+      <file>$PROJ_DIR$\System\clock.c</file>
+      <file>$PROJ_DIR$\System\clock.h</file>
+      <file>$PROJ_DIR$\crc16.c</file>
+      <file>$PROJ_DIR$\fsm\core\messages.h</file>
+      <file>$PROJ_DIR$\fsm\fsm_main.c</file>
+      <file>$PROJ_DIR$\drv\spi.h</file>
+      <file>$PROJ_DIR$\fsm\core\messages.c</file>
+      <file>$PROJ_DIR$\loader.h</file>
+      <file>$PROJ_DIR$\drv\voice.h</file>
+      <file>$PROJ_DIR$\drv\pwr_sourse.c</file>
+      <file>$PROJ_DIR$\drv\media.c</file>
+      <file>$PROJ_DIR$\fsm\core\signals.c</file>
+      <file>$PROJ_DIR$\crc16.h</file>
+      <file>$PROJ_DIR$\fsm\core\timers.h</file>
+      <file>$PROJ_DIR$\drv\temper.h</file>
+      <file>$PROJ_DIR$\drv\voice_table.h</file>
+      <file>$PROJ_DIR$\drv\voice.c</file>
+      <file>$PROJ_DIR$\fsm\core\timers.c</file>
+      <file>$PROJ_DIR$\fsm\fsm_main.h</file>
+      <file>$PROJ_DIR$\drv\uart.h</file>
+      <file>$PROJ_DIR$\drv\temper.c</file>
+      <file>$PROJ_DIR$\drv\uart.c</file>
+      <file>$PROJ_DIR$\CMSIS\startup_stm32f103xb.s</file>
+      <file>$PROJ_DIR$\CMSIS\core_cmFunc.h</file>
+      <file>$PROJ_DIR$\CMSIS\stm32f103xb.h</file>
+      <file>$PROJ_DIR$\CMSIS\stm32f1xx.h</file>
+      <file>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</file>
+      <file>$PROJ_DIR$\CMSIS\system_stm32f1xx.h</file>
+      <file>$PROJ_DIR$\drv\light_sensor.c</file>
+      <file>$PROJ_DIR$\params.c</file>
+      <file>$PROJ_DIR$\drv\at45db321.c</file>
+      <file>$PROJ_DIR$\CMSIS\core_cm3.h</file>
+      <file>$PROJ_DIR$\drv\at45db321.h</file>
+      <file>$PROJ_DIR$\drv\light_sensor.h</file>
+      <file>$PROJ_DIR$\CMSIS\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.o</file>
+      <file>$PROJ_DIR$\main.c</file>
+      <file>$PROJ_DIR$\params.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\signals.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\params.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\messages.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\watch_io.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\Debug\Exe\tc_stm32.hex</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\loader.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\rtc.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\voice.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\params.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\startup_stm32f103xb.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\loader.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\temper.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.o</file>
+      <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+      <file>$PROJ_DIR$\Debug\Exe\c.out</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\watch_io.h</file>
+      <file>$PROJ_DIR$\rtc.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\tc_stm32.pbd</file>
+      <file>$PROJ_DIR$\flash_stm32f103x8.icf</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.pbi</file>
+      <file>$PROJ_DIR$\watch_io.c</file>
+      <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\at45db321.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsm_main.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\watch_io.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\media.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\media.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\light_sensor.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\voice.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwr_sourse.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwr_sourse.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\at45db321.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\signals.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\temper.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\messages.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\c.map</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsm_main.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\light_sensor.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\rtc.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\watch_io.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\crc16.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\params.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\loader.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\pwr_sourse.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\voice.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\light_sensor.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\temper.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\signals.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\timers.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\fsm_main.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\messages.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\clock.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\media.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\system_stm32f1xx.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\at45db321.__cstat.et</file>
+      <file>$PROJ_DIR$\Debug\Obj\spi.__cstat.et</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\loader.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 63</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 110</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 55 70 24 93 12 10 69 103 32 74 30 17 37 62 91 29 36 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 12 17 24 37 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\spi.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 46</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 125</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 64 55 10 69 103 32 74 30 62 91 29 36 93 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 10</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\System\clock.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 104</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 121</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 64 55 6 69 103 32 74 30 62 91 29 36 93 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\crc16.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 66</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 108</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 62 69 91 17 93 70 103 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 17 93 70 62 69 103 55 64 91</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fsm\fsm_main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 101</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 119</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 3 91 62 23 70 72 19 71 18 13 42 38 69 64 103 55 93</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 71 72 18 23 13 19 42 3 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fsm\core\messages.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 47</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 120</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 70 62 69 91 93 103 55 8</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 8</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\pwr_sourse.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 92</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 88</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 112</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 93 3 62 91 29 36 74 30 69 64 103 55 32 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 3</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\media.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 122</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 62 70 91 29 36 74 37 93 30 2 69 64 103 55 32 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 37 2</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fsm\core\signals.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 43</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 117</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 70 62 69 91 93 103 55 0</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\voice.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 87</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 113</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 13 69 103 2 20 18 70 64 55 93 62 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 2 13 20 37 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\fsm\core\timers.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 44</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 118</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 69 103 32 74 18 70 64 55 30 62 91 29 36 93 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\temper.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 97</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 115</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 62 70 91 29 28 19 32 30 18 69 64 103 55 36 51 39 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 19 18</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\uart.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 60</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 116</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 24 62 70 91 29 36 28 74 30 69 64 103 55 32 39 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 24</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\startup_stm32f103xb.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 61</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\CMSIS\system_stm32f1xx.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 40</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 123</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 51 39 69 70 91 29 36 32 64 62 74 30 28 103 55</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30 29 36 93 70 62 69 103 55 64 91 39 74 51 28 32</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\light_sensor.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 86</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 114</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 39 18 62 70 91 29 36 51 30 38 69 64 103 55 32 74 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 18 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\params.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 62 70 42 103 72 69 64 55 91</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 72 42</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\drv\at45db321.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 95</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 124</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 74 10 62 70 91 29 36 30 37 69 64 103 55 32 39 51 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 10 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 68 100</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\main.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 49</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 111</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 37 70 72 19 64 55 51 6 23 12 69 103 32 39 93 30 71 18 10 24 13 38 62 91 29 36 74 28</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 6 71 72 18 23 10 37 24 12 13 19 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\rtc.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 106</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 64 55 70 93 72 69 103 36 28 30 62 91 29 32 51 39 74</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 72</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\c.out</name>
+      <outputs>
+        <tool>
+          <name>OBJCOPY</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>ILINK</name>
+          <file> 100</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 76 95 104 66 101 86 63 49 85 47 59 88 73 43 46 61 40 97 44 60 87 48 67 94 90 79</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\watch_io.c</name>
+      <outputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 48</file>
+        </tool>
+        <tool>
+          <name>__cstat</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74 32 71 62 70 91 29 39 30 69 64 103 55 36 93 28 51</file>
+        </tool>
+        <tool>
+          <name>ICCARM</name>
+          <file> 93 70 62 69 103 55 64 91 30 29 36 39 74 51 28 32 71</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,144 @@
+#include <stdint.h>
+#include "stm32f1xx.h"
+#include "clock.h"
+#include "watch_io.h"
+#include "rtc.h"
+#include "timers.h"
+
+
+static unsigned char dec2bcdTens(unsigned char num){return num / 10;}
+static unsigned char dec2bcdUnits(unsigned char num){return num % 10;}
+
+void DisplayData(uint8_t data)
+{
+  LED_Set(0, dec2bcdTens(data));
+  LED_Set(1, dec2bcdUnits(data));
+  LED_Set(2, LED_SYMBOL_NULL);
+  LED_Set(3, LED_SYMBOL_NULL);
+  LED_Set(4, LED_SYMBOL_NULL);
+  LED_Set(5, LED_SYMBOL_NULL);
+}
+
+//void DisplayTime(RTC_DateTimeTypeDef* RTC_DateTimeStruct)
+void DisplayTime(RTC_Time* RTC_Time)
+{
+  LED_Set(0, dec2bcdTens(RTC_Time->RTC_Hours));
+  LED_Set(1, dec2bcdUnits(RTC_Time->RTC_Hours));
+  LED_Set(2, LED_SYMBOL_MINUS);
+  LED_Set(3, dec2bcdTens(RTC_Time->RTC_Minutes));
+  LED_Set(4, dec2bcdUnits(RTC_Time->RTC_Minutes));
+  LED_Set(5, LED_SYMBOL_NULL);
+}
+
+int cntr99 = 0;
+
+uint8_t b;
+
+//RTC_DateTimeTypeDef rtc_time;
+
+RTC_Time time;
+
+uint16_t tmp;
+
+void main(void)
+{
+  ClockInit();
+  
+  io_init();
+  
+  RTC_Init();
+  
+  InitTimers();
+  
+  /*
+  time.RTC_Hours = 20;
+  time.RTC_Minutes = 7;
+  time.RTC_Seconds = 0;
+  RTC_SetTime(&time);
+  */
+  BackupWrite(0, 0x13);
+  BackupWrite(9, 0x16);
+  BackupWrite(3, 0x66);
+  
+  tmp = BackupRead(0);
+  tmp = BackupRead(9);
+  tmp = BackupRead(3);
+  tmp = BackupRead(2);
+  
+  
+  /*
+  LED_Set(0, 1);
+  LED_Set(1, 2);
+  LED_Set(2, LED_SYMBOL_MINUS);
+  LED_Set(3, 4);
+  LED_Set(4, 5);
+  LED_Set(5, LED_SYMBOL_NULL);
+  */
+  uint8_t br = 10;
+  LED_Brightness(br);
+
+  //LED_BlinkOn(LED_BLINK_0 | LED_BLINK_1);
+  LED_PointsSet(LED_POINT_ALARM);
+  
+  ButtonArptOn(BUTTON_2);
+  ButtonArptOn(BUTTON_3);
+  
+  for(;;)
+  {
+    if(RTC_IsUpdate())
+    {
+      //RTC_GetDateTime(&rtc_time);
+      //DisplayTime(&rtc_time);
+      RTC_GetTime(&time);
+      DisplayTime(&time);
+    }
+  }
+  
+  for(;;)
+  {
+    
+    b = GetButton();
+    if(b == BUTTON_5)
+      LED_BlinkOff(LED_BLINK_0 | LED_BLINK_1);
+    else if(b == BUTTON_4)
+      LED_BlinkOn(LED_BLINK_0 | LED_BLINK_1);
+    else if(b == BUTTON_3)
+    {
+      /*
+      if(br != 0)
+        br--;
+      
+      LED_Brightness(br);
+      */
+      if(cntr99 != 0)
+        cntr99--;
+      LED_BlinkTimerReset();
+    }
+    else if(b == BUTTON_2)
+    {
+      if(cntr99 != 99)
+        cntr99++;
+      LED_BlinkTimerReset();
+      /*
+      if(br != 17)
+        br++;
+      LED_Brightness(br);
+      */
+    }
+    else if(b == BUTTON_1)
+    {
+      if(LED_Status() == 1)
+        LED_Off();
+      else
+        LED_On();
+    }
+    /*
+    LED_Brightness(b);
+    b++;
+    if(b>10)
+      b = 2;
+    */
+    
+    DisplayData(cntr99);
+  }
+}
